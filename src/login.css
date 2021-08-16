@@ -1,0 +1,66 @@
+.login-container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.login-form{
+    background-color:#111;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left:22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.username{
+    color: white;
+    height: 48px;
+    width: 60%;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 12%;
+    background: black;
+    border: none;
+    font-size: medium;
+
+}
+.password{
+    height: 48px;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 5px;
+    background: black;
+    border: none;
+    font-size: medium;
+    color: blanchedalmond ;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+.login-btn{
+    height: 43px;
+    width: 61%;
+    background-color: #e50914;
+    margin-bottom: 5px;
+}
+
+.google-btn{
+    height: 43px;
+    width: 61%;
+    background-color: #1a73e8;
+    margin-bottom: 5px;
+
+}
+.nav-logo2{
+    width: 90px;
+    object-fit: cover;
+    position: absolute;
+    left: 42%;
+
+}
+

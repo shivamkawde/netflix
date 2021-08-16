@@ -1,0 +1,65 @@
+.row_poster{
+    
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+.row_poster:hover{
+    transform: scale(1.08);
+}
+.row_posters{
+    
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+/* scroll bar hide */
+.row_posters::-webkit-scrollbar    
+{
+ display: none;
+}
+.row_posterLarge{
+    max-height: 250px;
+}
+.row_posterLarge:hover{
+    transform: scale(1.11);
+}
+.row{
+    color: white;
+    margin-left: 20px;
+}
+h5{
+    position: relative;
+    top: 105px;
+    right: 124px;
+    color: white;
+    height: 200px;
+}
+.likedMovie{
+    height: 33px;
+    position: relative;
+    /* top: 160px; */
+    top: 227px;
+    right: 114px;
+    color: red;
+    background: #111;
+    font-size: medium;
+
+}
+.likedmovieSmall{
+    height: 33px;
+    position: relative;
+    /* top: 160px; */
+    top: 102px;
+    right: 152px;
+    color: red;
+    background: #111;
+    font-size: medium;
+    
+}
+
+
+    

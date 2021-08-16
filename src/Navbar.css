@@ -1,0 +1,72 @@
+.navbar{
+    
+display: flex;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #111
+
+}
+.nav-logo{
+    width: 90px;
+    object-fit: cover;
+
+}
+.userName{
+    position: absolute;
+    right: 0%;
+}
+.logout{
+    position: absolute;
+    left: 93%;
+    bottom: 2%;
+}
+
+.action{
+    position: absolute;
+    top: 13px;
+    left: 13%;
+    color: white;
+}
+.home{
+    position: absolute;
+    top: 13px;
+    left: 98px;
+    color: white;
+}
+
+
+.movieGenre{
+    background: #e50914;
+    height: 33px;
+    position: absolute;
+    left: 104px;
+    bottom: 8px;
+}
+
+.comedy{
+    position: absolute;
+    top: 13px;
+    left: 25%;
+    color: white;
+}
+
+.horror{
+    position: absolute;
+    top: 13px;
+    left: 39%;
+    color: white;
+}
+.romance{
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    color: white;
+}
+
+
+a.activeLink{
+    color: white;
+    border-bottom: 1px seashell;
+
+}

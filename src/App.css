@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    
+}
+.app{
+    background-color :#111;
+}
+.HorrorDiv{
+    background-color: #111;
+    height: 100vh;
+}
+.ActionDiv{
+    background-color: #111;
+    height: 100vh;
+}
+.ComedyDiv{
+    background-color: #111;
+    height: 100vh;
+}
+.searchHorrorMovie{
+    position: absolute;
+    top: 40%;
+    height: 31px;
+    width: 32%;
+    /* margin: auto; */
+    right: 32%;
+    background-color: red;
+    text-align: center;
+
+}
+.searchBtn{
+    position: absolute;
+    top: 40%;
+    height: 38px;
+    width: 11%;
+    /* margin: auto; */
+    right: 22%;
+    background-color: white;
+}
