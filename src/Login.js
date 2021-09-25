@@ -48,6 +48,8 @@ function Login(props){
                  <button className="google-btn" onClick={signInWithGoogle}>login With Google</button>
                   <Link to="/CreateAc" style={{color:"white"}}>Create Account</Link>
             </div>
+                <h3 style={{color:"white"}}>For Testing Username- test123@test.com</h3>
+             <h3 style={{color:"white"}}>Password-123456</h3>
         </div>
         
         </div>
